@@ -14,3 +14,6 @@ assert title() == "=========\n= Title =\n========="
 (2 points)
 
 """
+
+def title(symbol = "="):
+    return f"{symbol * 9}\n{symbol} Title {symbol}\n{symbol * 9}"
